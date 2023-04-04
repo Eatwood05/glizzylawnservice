@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glizzy's Lawn Service</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #f7d2b2;
+		}
+header {
+		background-color: #f04747;
+		color: #fff;
+		padding: 20px;
+	}
+
+	nav {
+		background-color: #ffcdb2;
+		padding: 10px;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	nav li {
+		float: left;
+	}
+
+	nav li a {
+		display: block;
+		color: #fff;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	nav li a:hover {
+		background-color: #fff;
+		color: #f04747;
+		transition: 0.3s;
+	}
+
+	main {
+		background-color: #fff;
+		padding: 20px;
+		margin: 10px;
+	}
+
+	h1, h2, h3 {
+		color: #f04747;
+	}
+
+	p {
+		color: #4a4a4a;
+	}
+
+	footer {
+		background-color: #f04747;
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h1>Glizzy's Lawn Service</h1>
+	</header>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</nav>
+
+<main>
+	<section>
+		<h2>Welcome to Glizzy's Lawn Service!</h2>
+		<p>We are a professional lawn care company serving the greater Milwaukee area. Our mission is to provide top-quality lawn care services at an affordable price. We pride ourselves on our attention to detail and customer satisfaction.</p>
+	</section>
+</main>
+
+<footer>
+	<p>&copy; 2023 Glizzy's Lawn Service. All rights reserved.</p>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glizzy's Lawn Service - Services</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #f7d2b2;
+		}
+header {
+		background-color: #f04747;
+		color: #fff;
+		padding: 20px;
+	}
+
+	nav {
+		background-color: #ffcdb2;
+		padding: 10px;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	nav li {
+		float: left;
+	}
+
+	nav li a {
+		display: block;
+		color: #fff;
+		text-align: center;
+		padding: 14px 16px;
+text-decoration: none;
+		font-weight: bold;
+	}
+
+	nav li a:hover {
+		background-color: #fff;
+		color: #f04747;
+		transition: 0.3s;
+	}
+
+	main {
+		background-color: #fff;
+		padding: 20px;
+		margin: 10px;
+	}
+
+	h1, h2, h3 {
+		color: #f04747;
+	}
+
+	p {
+		color: #4a4a4a;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+
+	.service-image {
+		float: left;
+		margin-right: 20px;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	footer {
+		background-color: #f04747;
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h1>Glizzy's Lawn Service</h1>
+	</header>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</nav>
+
+<main>
+	<section>
+		<h2>Our Services</h2>
+		<ul>
+			<li>
+				<div class="service-image">
+					<img src="https://via.placeholder.com/150x150" alt="Lawn Mowing">
+				</div>
+				<h3>Lawn Mowing</h3>
+				<p>Our lawn mowing service includes mowing, trimming, and blowing away debris. We charge $25 per mow.</p>
+			</li>
+			<li>
+				<div class="service-image">
+					<img src="https://via.placeholder.com/150x150" alt="Joke Reward">
+				</div>
+				<h3>Joke Reward</h3>
+				<p>Have a good joke to share? We will reward you with $5 off your next service! Just tell us your joke when we arrive.</p>
+			</li>
+			<li>
+				<div class="service-image">
+					<img src="https://via.placeholder.com/150x150" alt="Food Reward">
+				</div>
+				<h3>Food Reward</h3>
+				<p>If you refer a friend to our services and they sign up for regular lawn care, we will buy you and your friend a $100 gift card to your favorite restaurant!</p>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</section>
+</main>
+
+<footer>
+	<p>&copy; 2023 Glizzy's Lawn Service. All rights reserved.</p>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glizzy's Lawn Service - Gallery</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #f7d2b2;
+		}
+header {
+		background-color: #f04747;
+		color: #fff;
+padding: 20px;
+		text-align: center;
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	nav {
+		background-color: #fff;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+	}
+
+	nav ul {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	nav li {
+		display: inline-block;
+		margin-right: 20px;
+	}
+
+	nav li a {
+		color: #f04747;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	nav li a:hover {
+		background-color: #fff;
+		color: #f04747;
+		transition: 0.3s;
+	}
+
+	main {
+		background-color: #fff;
+		padding: 20px;
+		margin: 10px;
+	}
+
+	h1, h2, h3 {
+		color: #f04747;
+	}
+
+	p {
+		color: #4a4a4a;
+	}
+
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin: 20px;
+	}
+
+	.gallery-item {
+		flex-basis: 300px;
+		margin: 10px;
+		padding: 10px;
+		background-color: #f7d2b2;
+		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+		text-align: center;
+	}
+
+	.gallery-item img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	footer {
+		background-color: #f04747;
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h1>Glizzy's Lawn Service</h1>
+	</header>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</nav>
+
+<main>
+	<section>
+		<h2>Gallery</h2>
+		<div class="gallery">
+			<div class="gallery-item">
+				<img src="https://via.placeholder.com/300x200" alt="Lawn Mowing">
+				<p>Lawn mowing in progress.</p>
+			</div>
+			<div class="gallery-item">
+				<img src="https://via.placeholder.com/300x200" alt="Trimming">
+				<p>Trimming the edges of the lawn.</p>
+			</div>
+			<div class="gallery-item">
+				<img src="https://via.placeholder.com/300x200" alt="Blowing Debris">
+				<p>Blowing away debris after mowing.</p>
+			</div>
+			<div class="gallery-item">
+				<img src="https://via.placeholder.com/300x200" alt="Lawn Equipment">
+				<p>Our lawn care equipment in action.</p>
+			</div>
+			<div class="gallery-item">
+				<img src="https://via.placeholder.com/300x200" alt="
+</div>
+			</div>
+		</section>
+	</main>
+<footer>
+	<p>Glizzy's Lawn Service &copy; 2023</p>
+	<p>Phone: (262) 622-3265 | Email: Glizzylawncare@yahoo.com</p>
+</footer>
+</body>
+</html>
+```
